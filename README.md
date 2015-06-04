@@ -3,4 +3,4 @@ A simple illustration of how to implement an MVC structure using python http.ser
 
 Requires python 3+
 
-    run $python init.py
+    run $ python init.py
