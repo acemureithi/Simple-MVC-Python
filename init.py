@@ -42,7 +42,7 @@ class MyRequestHandler(BaseHTTPRequestHandler):
         routes = [  
             {'regexp': r'^/$', 'controller': 'HomeController', 'action': 'indexAction'},  
             {'regexp': r'^/content/', 'controller': 'ContentController', 'action': 'showAction'}  
-        ]  
+        ] 
           
         self.__router = Router(self)  
         for route in routes:  
